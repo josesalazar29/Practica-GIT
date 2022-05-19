@@ -1,5 +1,41 @@
 /* CSS styles */
 h1 {
 font-family: Impact, sans-serif;
-color: #3753ce;
+color: #ce37a1;
+
 }
+
+body,p{
+	font-family: sans-serif;
+	text-align: center;
+	padding: 3rem;
+	font-size: 1.125rem;
+	line-height: 1.5;
+	transition: all 725ms ease-in-out;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bolder;
+	margin-bottom: 1rem;
+}
+
+p {
+	margin-bottom: 1rem;
+	color: rgb(44, 27, 24);
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
